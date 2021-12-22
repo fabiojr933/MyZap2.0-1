@@ -134,3 +134,26 @@ sudo apt-get update && sudo apt-get install -y certbot
 ```barsh
 sudo certbot certonly --manual --force-renewal -d *.yourdomain.net -d yourdomain.net --agree-tos --no-bootstrap --manual-public-ip-logging-ok --preferred-challenges dns-01 --server https://acme-v02.api.letsencrypt.org/directory
 ```
+
+
+### caso wppconnet não inicializar tem fazer a atualização dele 
+
+```sh
+npm update @wppconnect-team/wppconnect --force 
+```
+
+
+### video aula para base de conhecimento 
+
+```sh
+https://www.youtube.com/channel/UC-_mG5VU7maEKt5rUj8tSbQ
+https://www.youtube.com/watch?v=_IAizSgo0iw
+```
+
+
+### Util webhook.site
+
+```sh
+https://webhook.site
+```
+
